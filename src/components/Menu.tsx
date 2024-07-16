@@ -17,19 +17,28 @@ const Menu = () => {
                 onClick={() => setOpen((prev) => !prev)}
             />
             {open && (
-                <div className="absolute top-0 left-0 w-full h-screen bg-white">
+                <div className="absolute bg-black text-white top-0 left-0 w-full h-screen">
                     <ul>
                         <li>
                             <Link href="/">Home</Link>
                         </li>
                         <li>
-                            <Link href="/list">List</Link>
+                            <Link href="/list">shop</Link>
                         </li>
                         <li>
-                            <Link href="/login">Login</Link>
+                            <Link href="/login">Deals</Link>
                         </li>
                         <li>
-                            <Link href="/single">Single</Link>  
+                            <Link href="/single">About</Link>  
+                        </li>
+                        <li>
+                            <Link href="/single">Contacts</Link>  
+                        </li>
+                        <li>
+                            <Link href="/single">Cart{1}</Link>  
+                        </li>  
+                        <li>
+                            <Link href="/single">Logout</Link>  
                         </li>
                     </ul>
                 </div>
