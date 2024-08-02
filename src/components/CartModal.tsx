@@ -7,6 +7,7 @@ const CartModal = () => {
   const cartItmes = true
 
   return (
+    <>
     <div className='absolute p-4 rounded-lg bg-white bg-white top-12 right-0 flex flex-col gap-6 z-20'>
     {!cartItmes ? (
         <div><p>Cart is empty</p> </div>
@@ -44,17 +45,25 @@ const CartModal = () => {
            <span className='text-blue-500'>Remove</span> 
 
           </div>
-
+          {/* // BOTTOM */}
+          <div className=''>
+            <div className=''>
+              <span className=''>Subtotal</span>
+              <span className=''>$49</span>
+              
+            </div>
+          </div>
 
 
           </div>
       </div>
 
-
+      
       
     )}
     </div>
-  )
+    </>
+     )
 }
 
 
