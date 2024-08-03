@@ -3,6 +3,7 @@
 import Image from 'next/image'
 
 const CartModal = () => {
+  //5034
 
   const cartItmes = true
 
@@ -12,22 +13,24 @@ const CartModal = () => {
     {!cartItmes ? (
         <div><p>Cart is empty</p> </div>
     ): (
+      <div className='flex flex-col gap-8'>
+        {/* ITEM */}
       <div className="flex gap-4" >
           <Image
-          src=" "
+          src="https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="logo"
           width={72}
           height={96}
           className='object-cover rounded-md' />
       
-          <div className='flex'>
+          <div className='flex flex-col justify-between w-full'>
 
           {/* TOP */}
           <div className=''></div>
 
           {/* TITLE */}
           <div className='flex items-center justify-between gap-8'>
-          <h1 className='font-weight-bold'>PRODUCT NAME</h1>
+          <h1 className='font-semi-bold'>PRODUCT NAME</h1>
           <div className='p-1 bg-gray-200 rounded-sm'>$49</div>
           </div>
 
@@ -47,15 +50,20 @@ const CartModal = () => {
           </div>
           {/* // BOTTOM */}
           <div className=''>
-            <div className=''>
+            <div className='flex items-center justify-between font-semi-bold'>
               <span className=''>Subtotal</span>
-              <span className=''>$49</span>
-              
+              <span className=''>$49</span>              
+            </div>
+            <p className='text-gray-500 text-sm mt-2 mb-4'>tax included</p>
+            <div className='flex justiy-between text-sm gap-2'>
+              <button className='rounded-md py-3 px-4 ring-1 ring-gr-500'>View Cart</button>
+              <button className='rounded-md py-3 px-4 ring-1 ring-blue-500'>Checkout</button>
             </div>
           </div>
 
 
           </div>
+      </div>
       </div>
 
       
