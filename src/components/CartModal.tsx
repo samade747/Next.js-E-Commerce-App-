@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 const CartModal = () => {
-  //5034
+  
 
   const cartItmes = true
 

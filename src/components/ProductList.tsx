@@ -20,7 +20,8 @@ const ProductList = () => {
                     src="https://images.pexels.com/photos/2916814/pexels-photo-2916814.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt=""
                     fill 
-                    sizes='25vw'    
+                    sizes='25vw'
+                    className='absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500'  
                 />
                 </div>
 
