@@ -1,6 +1,39 @@
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <div className="">
+            {/* TOP */}
+
+
+                <div className="">
+                {/* LEFT */}
+                </div>
+
+
+                <div className="">
+                    {/* CENTER  */}
+
+                </div>
+
+
+                <div className="">
+                    {/* right  */}
+
+                </div>
+
+
+
+
+            <div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
     )
 }
 
