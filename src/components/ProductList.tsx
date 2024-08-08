@@ -6,7 +6,7 @@ const ProductList = () => {
 
     return (
         <div className="mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap">
-           <Link href="/test" className='w-full flex flex-col gap-4 sm:w-[45% ] lg:w-[22%]'>
+           <Link href="/test" className='w-full flex flex-col gap-2 sm:w-[45%] lg:w-[17%]'>
             <div className='relative w-full h-80'>
                 <Image
                     src="https://images.pexels.com/photos/2916814/pexels-photo-2916814.jpeg?auto=compress&cs=tinysrgb&w=600"
