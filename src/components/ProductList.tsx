@@ -30,8 +30,8 @@ const ProductList = () => {
                     <span className='p-1 bg-gray-200 rounded-sm'>$49</span>                                    
                 </div>            
 
-                <div className='text-sm text-gray-500' >My description  </div>
-                <button className='rounded-full bg-black text-white px-4 py-3 hover:opacity-30'></button>
+                 <div className='text-sm text-gray-500' >My description  </div>
+                <button className='rounded-2xl ring-1 ring-black px-4 py-3 px-4 text-xs hover:hover'>Add to cart</button>
 
 
                
